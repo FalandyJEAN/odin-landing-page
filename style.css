@@ -95,8 +95,53 @@ button a{
     margin-right: 170px;
 }
 
-img{
+.right-more img{
     width: 450px;
     height: 250px;
     border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+
+/*-----------------------information section--------------------------------*/
+.information{
+    background-color: white;
+}
+
+.information h1{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+}
+
+.container{
+    display: flex;align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 200px;
+    height: fit-content;
+}
+
+.box img{
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3882f6;
+    border-radius: 20px;
+}
+
+.box p{
+    text-align: justify;
 }
