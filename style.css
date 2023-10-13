@@ -114,6 +114,7 @@ button a{
 /*-----------------------information section--------------------------------*/
 .information{
     background-color: white;
+    margin-bottom: 80px;
 }
 
 .information h1{
@@ -151,5 +152,27 @@ button a{
 }
 
 .box p{
+    text-align: justify;
+}
+
+/*thinking section*/
+.quote{
+    background-color: #cccfd6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+
+.quote .text{
+    width: 600px;
+    height: fit-content;
+}
+
+.quote p{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
     text-align: justify;
 }
