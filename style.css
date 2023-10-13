@@ -27,6 +27,14 @@
     margin-right: 500px;
 }
 
+span{
+    color: #3882f6;
+}
+
+.logo img{
+    width: 100px;
+}
+
 /*right-links*/
 .right-links{
     display: flex;
@@ -138,7 +146,7 @@ button a{
 .box img{
     width: 200px;
     height: 200px;
-    border: 5px solid #3882f6;
+    border: 5px solid #e28010;
     border-radius: 20px;
 }
 
