@@ -14,7 +14,7 @@
     display: flex;
     justify-content:space-around;
     padding: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 5px;
 }
 
 /*logo*/
@@ -24,7 +24,7 @@
     font-size: 30px;
     display: flex;
     align-items: center;
-    margin-right: 500px;
+    margin-right: 480px;
 }
 
 span{
@@ -68,7 +68,7 @@ span{
 /*section left sub-header*/
 .left-more{
     text-align: justify;
-    margin-left: 170px;
+    margin-left: 190px;
     color: white;
     flex-wrap: wrap;
 }
@@ -128,7 +128,8 @@ button a{
 }
 
 .container{
-    display: flex;align-items: center;
+    display: flex;
+    align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     gap: 60px;
@@ -140,15 +141,16 @@ button a{
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 200px;
+    width: 250px;
     height: fit-content;
 }
 
 .box img{
-    width: 200px;
-    height: 200px;
-    border: 5px solid #e28010;
+    width: 250px;
+    height: 250px;
+    border: 2px solid #3882f6;
     border-radius: 20px;
+    margin-bottom: 10px;
 }
 
 .box p{
@@ -157,22 +159,46 @@ button a{
 
 /*thinking section*/
 .quote{
-    background-color: #cccfd6;
     display: flex;
+    background-color: #e5e7eb;
     align-items: center;
     justify-content: center;
-    padding: 100px;
-}
-
-.quote .text{
-    width: 600px;
-    height: fit-content;
+    flex-direction: column;
+    color: #1f2937;
 }
 
 .quote p{
+    display: flex;
+    flex-wrap: wrap;
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
-    color: #1f2937;
-    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    padding:90px 380px 40px 380px;
+}
+
+.quote h2{
+    padding-bottom: 90px;
+    margin-left: 800px;
+}
+
+::-webkit-scrollbar{
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #3882f6;
+}
+
+/*footer*/
+.footer{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
 }
