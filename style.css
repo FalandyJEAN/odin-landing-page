@@ -12,8 +12,8 @@
 /*sub-header*/
 .sub-header{
     display: flex;
-    justify-content:space-beetwen;
-    padding: 20px;
+    justify-content:space-around;
+    padding: 20px 175px;
     position: fixed;
     left: 0;
     right: 0;
@@ -66,14 +66,14 @@ span{
     display: flex;
     align-items: center;
     padding: 20px;
-    gap: 400px;
+    gap: 300px;
     padding-top: 120px;
 }
 
 /*section left sub-header*/
 .left-more{
     text-align: justify;
-    margin-left: 190px;
+    padding-left: 185px;
     color: white;
     flex-wrap: wrap;
 }
