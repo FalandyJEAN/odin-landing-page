@@ -12,7 +12,7 @@
 /*sub-header*/
 .sub-header{
     display: flex;
-    justify-content:space-around;
+    justify-content:space-beetwen;
     padding: 20px;
     position: fixed;
     left: 0;
